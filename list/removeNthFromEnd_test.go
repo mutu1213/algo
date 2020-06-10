@@ -10,6 +10,9 @@ import (
 //head不是空节点，有val
 //加入dummy节点，保证p2.next不会空，减少边界判断
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
+	if n == 0 {
+		return head
+	}
 	dummy := new(ListNode)
 	dummy.Next = head
 	p1 := dummy
