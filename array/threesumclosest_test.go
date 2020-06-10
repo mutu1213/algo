@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+//https://leetcode-cn.com/problems/3sum-closest/submissions/
+//类似3数之和等于k,更简单些，返回的是加起来的和
 func threeSumClosest(nums []int, target int) int {
 	var result = math.MaxInt32
 	if len(nums) < 3 {
