@@ -1,7 +1,6 @@
 package array
 
 import (
-	"fmt"
 	"sort"
 	"testing"
 )
@@ -49,6 +48,6 @@ func threeSum(nums []int) [][]int {
 }
 
 func Test_threeSum(t *testing.T) {
-	a := []int{-1, 0, 1, 2, -1, -4}
-	fmt.Println(threeSum(a))
+	//a := []int{-1, 0, 1, 2, -1, -4}
+	//fmt.Println(threeSum(a))
 }
